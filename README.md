@@ -54,4 +54,6 @@ In addition, $Lf$ is the distance between the car of mass and the front wheels (
 
 To handle to latency, the state values are calculated using the model and the latency, which means the state values should be the values after latency. This is implemented in `main.cpp` from line 131 to 147. 
 
-I would say the result seems good at moment. The project can compile and run without errors, and the vehicle can drive along the track without rushing out of the road.
+I would say the result seems good at moment. The project can compile and run without errors, and the vehicle can drive along the track without rushing out of the road.  
+Here is a screenshot of the result.
+![result_screenshot](image/result_screenshot.png)
