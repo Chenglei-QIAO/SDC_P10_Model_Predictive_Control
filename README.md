@@ -39,12 +39,12 @@ From the Wiki:
 
 The nonlinear continuous time equations that describe a kinematic bicycle model in an inertial frame are: 
 
-$$x[t] = x[t-1] + v[t-1]*cos(psi[t-1])*dt$$
-$$y[t] = y[t-1] + v[t-1]*sin(psi[t-1])*dt$$
+$$x[t] = x[t-1] + v[t-1]*cos(psi[t-1])*dt$$  
+$$y[t] = y[t-1] + v[t-1]*sin(psi[t-1])*dt$$  
 $$psi[t] = psi[t-1] + v[t-1] / Lf*delta[t-1]*dt$$  
-$$v[t] = v[t-1] + a[t-1] * dt$$
-$$cte[t] = f(x[t-1]) - y[t-1] + v[t-1]*sin(epsi[t-1]) * dt$$
-$$epsi[t] = psi[t] - psides[t-1] + v[t-1] * delta[t-1]/Lf*dt$$ 
+$$v[t] = v[t-1] + a[t-1] * dt$$  
+$$cte[t] = f(x[t-1]) - y[t-1] + v[t-1]*sin(epsi[t-1]) * dt$$  
+$$epsi[t] = psi[t] - psides[t-1] + v[t-1] * delta[t-1]/Lf*dt$$  
 
 where $x$ and $y$ are the coordinates of the center of mass gravity of the vehicle; $psi$ is the heading angle of the vehicle; $v$ is the speed of the vehicle; $cte$ represents the cross track error and $epsi$ represents the heading angle error. 
 
