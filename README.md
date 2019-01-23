@@ -51,6 +51,7 @@ $$cte[t] = f(x[t-1]) - y[t-1] + v[t-1]*sin(epsi[t-1])*dt$$
 
 $$epsi[t] = psi[t] - psides[t-1] + v[t-1]*delta[t-1]/Lf*dt$$
 
+
 where $x$ and $y$ are the coordinates of the center of mass gravity of the vehicle; $psi$ is the heading angle of the vehicle; $v$ is the speed of the vehicle; $cte$ represents the cross track error and $epsi$ represents the heading angle error. 
 
 In addition, $Lf$ is the distance between the car of mass and the front wheels (the value is 2.67 provided by the course). The other two values are the model output, where $a$ is the acceleration(throttle) of the vehicle and $delta# is the steering angle of the vehicle.  
